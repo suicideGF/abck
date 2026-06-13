@@ -103,7 +103,7 @@ IS_WINDOWS = platform.system() == 'Windows'
 
 TARGET_URL             = "https://mtacc.mobilelegends.com"
 ABCK_FILE              = os.path.join(os.path.dirname(os.path.abspath(__file__)), "abck.txt")
-SERVER_HOST            = "web-production-7a725.up.railway.app"
+SERVER_HOST            = "akamai-pookie.up.railway.app"
 SERVER_PORT            = "443"
 SERVER_URL             = f"https://{SERVER_HOST}"
 SERVER_SAVE_ENDPOINT   = f"{SERVER_URL}/api/save-token"
